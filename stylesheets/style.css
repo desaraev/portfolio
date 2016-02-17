@@ -23,7 +23,7 @@ body {
 	width: 1173px;
 	background: #FFF;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-	margin: 0 auto;
+	margin: 0 auto !important;
 	/* border: 1px solid #303040; */
 	box-sizing: border-box;
 	/* border-top: none; */

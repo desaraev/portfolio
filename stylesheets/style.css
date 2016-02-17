@@ -131,6 +131,12 @@ ol {
 	z-index: 2000;
 	box-shadow: none !important;
 }
+.backtotop {
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
+    z-index: 100;
+}
 #skiptocontent a:focus {
 	position: absolute;
 	left: 0px;

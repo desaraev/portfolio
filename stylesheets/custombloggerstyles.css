@@ -6,6 +6,9 @@ body {
 aside {
 	margin: 10px 0;
 }
+.content-inner {
+	padding: 0px;
+}
 .breadcrumbs {
 padding:5px 5px 5px 0px;
 margin: 0px 0px 15px 0px;

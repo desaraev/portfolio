@@ -223,6 +223,9 @@ a:focus {
 button[type="submit"]:hover {
 	background-color: #3468AF;
 }
+div#searchwrapper {
+    float: right;
+}
 .search-btn, .search-btn:hover {
 	width: 25px;
 	height: 36px;

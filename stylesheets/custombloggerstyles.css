@@ -7,7 +7,7 @@ aside {
 	margin: 10px 0;
 }
 .content-inner {
-	padding: 0px;
+	padding: 0px !important;
 }
 .breadcrumbs {
 padding:5px 5px 5px 0px;

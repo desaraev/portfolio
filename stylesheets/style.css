@@ -2089,7 +2089,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	user-select: none;
 	color: #303040;
 	background-color: #5C6582;
-	margin-bottom: 15px;
+/*	margin-bottom: 15px;*/
 	margin-right: 10px;
 	border-bottom-style: solid;
 	border-bottom-color: #3468AF;
@@ -2102,6 +2102,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	/* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16); */
 	border-color: #303040; /*IE9 Fix where you have to redeclare the border color again*/
 	border-radius: 0;
+	border-bottom: 1px solid #FFF;
 }
 input[type="button"]:hover, input[type="submit"]:hover {
 	background-color: #303040;

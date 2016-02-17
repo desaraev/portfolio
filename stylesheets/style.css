@@ -2791,6 +2791,9 @@ border-bottom-color: #00B8D4;
 .login-footer a:hover {
 	text-decoration: none;
 }
+#footer table tbody {
+	background: trasnparent !important;
+}
 .link-dotted {
 	box-shadow: inset 0 -4px 0 #B9B9C9 !important;
 }

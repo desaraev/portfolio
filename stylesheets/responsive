@@ -1,0 +1,390 @@
+/***** RESPONSIVE ==============================================*****/
+@media (min-width: 1181px) {
+/**--adjust hide upper search meant for smaller screens--**/
+	#HTML6, #PageList1, .header-inner .Header .titlewrapper, .smaller {
+		display: none;
+    }
+	.column-center-outer {
+		max-width: 675px;
+	}
+	.region-inner.tabs-inner {
+      margin: -150px 0 -31px 0;
+  	}
+	#abt-search-btn {
+  		max-width: 100px;
+		width: 90px;
+ 	}
+	#abt-search-box {
+      width: 70%;
+	}
+	div.nav ul{
+		padding-top: 0px;
+    }
+	div.nav ul li {
+    	padding: 10px 10px 10px 10px;
+    }
+	div.nav a {
+		float: left;
+    }
+	.header-inner .Header #header-inner {
+		min-height: 30px !important;
+		height: 125px !important;
+    }
+	.Header h1 a, .Header h1 {
+		font: bold 55px Helvetica, Pacifico !important;
+		text-transform: Uppercase;
+		font-weight: bold;
+		margin: 25px;
+    }
+/** MENU **/
+	ul.fullmenu {
+        position: absolute;
+       	top: -5px;
+		left: -32px;
+    }
+	ul.fullmenu, ul.fullmenu a {
+		color: #fff;
+		font-size: 13pt !important;
+    }
+	 ul.fullmenu .menu {
+		color: #656E7F;
+    }
+	ul.fullmenu li {
+        float: left;
+        list-style: none;
+        padding: 0 10px;
+    }
+	label.navbutton {
+		height: 30px;
+    }
+	.dropdown {
+		height: 20px;
+    }
+	.dropdown ul {
+        position: relative;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border: 8px solid rgba(70, 226, 192, 0.57);
+        width: 200px;
+        overflow: visible !important;
+        height: auto !important;
+        visibility: hidden;
+        z-index: 999;
+		margin: 15px 0px 0px 45px;
+		padding: 0px;
+		left: -999999px;
+    }
+	.dropdown ul:before {
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(70, 226, 192, 0.57);
+        border-width: 8px 8px 11px;
+        border-style: solid;
+        content: &quot;&quot;;
+        display: block;
+        height: 0;
+        position: relative;
+        width: 0;
+        left: 45%;
+        transform: translateX(-45%);
+        top: -27px;
+    }
+	.dropdown ul li {
+        background: #FFF;
+        border-bottom: 1px solid #EFEFEF;
+        text-align: left;
+        width: 186px;
+		padding: 7px !important;
+		margin: 0px;
+		float: none !important;
+    }
+	.dropdown ul li, .dropdown ul li a, .dropdown ul li a:hover {
+		color: #000;
+    }
+	.dropdown ul li:hover, .dropdown ul a:hover  {
+    	background: #46E2C0;
+		text-decoration: none;
+    }
+	.dropdown ul li.first {
+		margin-top: -19px;
+    }
+	li.dropdown:hover &gt; ul {
+        visibility: visible !important;
+		left:0px;
+    }
+	li.dropdown:hover {
+		height: auto !important;
+    }
+/**--Home Page CSS ONLY--**/
+	#homepage div#HTML6 {
+        display: block;
+        right: 0px;
+        top: -50px;
+        position: absolute;
+        width: 55%;
+   	}
+	#HTML4 #socialicns {
+    	padding: 10px;
+	}
+    #homepage .videowrapper {
+        background: #EEEDEE;
+        float: left;
+        padding: 15px 40px;
+        text-align: left;
+        width: 455px !important;
+    }
+	#homepage .fa-lg {
+    	font-size: 1.333333em;
+    }
+    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
+	#homepage img[src*=&#39;goodreads-128.png&#39;], #homepage img[src*=&#39;unnamed.png&#39;]{
+        max-height: 113px !important;
+        height: 19px;
+    }
+    #homepage img[src*=&#39;Audible-Logo&#39;] {
+        max-height: 72px !important;
+        height: 48px;
+        margin-bottom: -19px !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 1180px) {
+/**--general rules --**/
+ 	 .region-inner.tabs-inner {
+ 	   float: none;
+ 	   margin: 0 0 0 0;
+ 	 }
+/**--adjust main content--**/
+	.main-inner .column-right-outer, .column-right-outer {
+	  max-width: 360px !important;      
+	  width: 360px !important;
+      float: left; 
+	  margin-right: -360px;
+    }
+/**--adjust search--**/
+	.tabs-outer {
+		margin: -119px 0px 0px 0px;
+	}  	
+	#mainmenu, #abt-search-btn, #HTML1, #HTML2, #HTML5, #PopularPosts1, 
+	#HTML11, #AdSense2, #AdSense5,  #AdSense6, #AdSense7, .nav .top, .top, 
+	#topwrapper #searchwrapper, .header-inner .Header .titlewrapper, 
+	label.navbutton div#searchwrapper, .fullmenu { display: none; }
+	#topwrapper #socialicns {
+    	padding: 10px 0 0 40px;
+    }
+/**--adjust search--**/
+  	#HTML6 #abt-search-box, #abt-search-box {
+  		width: 90% !important;
+  		max-width: 90% !important;
+		margin-left: 30px;
+    }
+  	div#HTML6 {
+  		width: 100%;
+		float: right;
+  	}
+ 	div#mainmenu {
+ 	 	float: left;
+ 	}
+	div#Label1 {
+    	width: 219%;
+    }
+  	.tabs-inner .section {
+  		min-height: 90px;
+  	}
+/**--adjust logo--**/
+  	.Header h1 a, .Header h1 {
+		font: normal normal 30pt helvetica, Pacifico !important;
+		margin-top: 20px;
+  	}
+/**--adjust menu--**/
+	div.nav ul li.top, .navbutton, div.nav {
+    	position: absolute !important;
+    }
+	div.nav, div.nav ul, 
+	 input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		overflow: visible;
+		max-height: 380px !important;
+		text-align: left;
+    }
+	div.nav ul{
+		padding-top: 39px;
+    }
+	div.nav ul li {
+		padding: 8px;
+		width: 45%;
+		float: left;
+		font-size: 35px; 
+    }
+	.nav li:hover {
+    	background: #46E2C0;
+    	color: #656E7F;
+    }
+	label.navbutton:after {
+    	content: &#39;menu&#39;;
+    	padding-left: 17px;
+    }
+	div.nav ul li a:hover, div.nav a:hover, div.nav ul li:hover {
+        color: #000 !important;
+    }
+	/**SIDEBAR**/
+	#HTML10 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 900px) and (max-width: 1180px) {
+/**--adjust main content--**/
+	.column-center-outer {
+    	max-width: 675px;
+    }
+	.main-inner .column-right-outer {
+      	max-width: 360px !important;      
+        width: 360px !important;
+        float: left; 
+        margin-right: -360px !important;
+    }
+    .region-inner.tabs-inner {
+      float: none;
+      margin: 14px 0 -5px 0;
+    }
+	#topwrapper #socialicns {
+        z-index: 1000000;
+        position: absolute;
+        right: 132px;
+    }
+/** FONTS **/
+	.adbl-review-text, .PopularPosts .item-title a, .adbl-review-text span,  
+	.adbl-rev-qstn-txt, .adbl-rev-qstn-lbl, li h3.post-title, 
+	li h3.post-title a, [dir=&quot;ltr&quot;], .category, #homepage .rightupper,
+	.lineofarticles li .item-title {
+		font-size: 18px !important;
+    }
+	article h1, h1, .rightupper article h1 {
+        font-weight: bolder;
+        font: 23px &#39;open sans&#39;, sans-serif, arial !important;
+        line-height: 28px;
+    }
+	h2 {
+		font-weight: bolder;
+      	font: 20px &#39;open sans&#39;, sans-serif, arial !important;	
+    }
+/**<!--Home Page CSS ONLY-->**/
+	.rightupper {
+		width: 100% !important;
+    }
+    .rightupper article,  .rightupper article {
+      float: left;
+      width: 42%;
+      margin: 10px 20px 10px 5px;
+      min-height: 340px;
+    }
+    .videowrapper {
+        width: 90% !important;
+		margin: 0 auto;
+    }
+	.lineofarticles li .item-snippet, .rightupper article p {
+		line-height: 20px !important;
+    }
+	ul.lineofarticles li {
+		min-height: 353px !important;
+    }
+	.boxheader ul {
+		padding: 0px !important;
+    }
+	div#FollowByEmail1 {
+		width: 100% !important;
+    }
+    #homepage #HTML4 #socialicns {
+        padding: 21px 10px;
+    }
+    #homepage .fa-lg {
+        font-size: 3.333333em;
+    }
+    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
+	#homepage img[src*=&#39;goodreads-128.png&#39;], 
+	#homepage img[src*=&#39;unnamed.png&#39;]{
+        max-height: 113px !important;
+        height: 45px;
+    }
+    #homepage img[src*=&#39;Audible-Logo&#39;] {
+        max-height: 72px !important;
+        height: 72px;
+        margin-bottom: -19px !important;
+    }
+}
+@media (min-width: 900px) {
+	div.nav ul li:hover {
+    	color: #46E2C0;
+    }
+}
+@media (min-width: 0px) and (max-width: 900px) {
+/**--adjust main content columns--**/
+    .main-inner .column-right-outer, .column-right-outer, 
+    .column-center-outer, .columns-inner, .column-center-inner {
+        width: 100% !important;
+		max-width: 100% !important;
+    }
+	.main-inner .column-right-outer, .column-right-outer {
+		float: none;
+		clear: both;
+		width: 100% !important;
+		max-width: 100% !important;
+    }
+	.main-inner .columns {
+		padding: 0px !important; 
+    }
+  	.region-inner.tabs-inner {
+      float: none;
+      margin: 34px 0 -30px 0;
+    }
+	#topwrapper #socialicns {
+		float: none !important;
+    }
+/**--hide some ads--**/
+    #AdSense3, #AdSense4, #PopularPosts1, #PopularPosts2, .nav .fa, #HTML11 {
+    	display: none;
+    }
+	.main-outer {
+    	margin-top: -12px;
+    }
+	div#HTML6 {
+		margin: 15px;
+	}
+	#homepage .videowrapper, #homepage .rightupper, #homepage div#FollowByEmail1 {
+		width: 85% !important;
+	}
+}
+@media (min-width: 0px) and (max-width: 700px) {
+/**--adjust logo--**/
+	.Header h1 a, .Header h1, .titlewrapper h1, .titlewrapper h1 a, .header h1, .header-inner .Header .titlewrapper {
+		font: normal normal 35px helvetica, Pacifico !important;
+		margin-top: 54px !important;
+		font-size: 35px;
+    }
+	#topwrapper {
+    	display: none;
+	}
+    .column-right-inner #HTML4 #socialicns { 
+		display: block !important; 
+	}
+	#homepage .videowrapper, #homepage .rightupper, #homepage div#FollowByEmail1 {
+		width: 80% !important;
+	}
+}
+@media (min-width: 0px) and (max-width: 460px) {
+/**--adjust logo--**/
+	.Header h1 a, .Header h1 {
+		font: normal normal 29px helvetica, Pacifico !important;
+    }
+	#HTML6 #abt-search-box, #abt-search-box {
+  		width: 75% !important;
+  		max-width: 75% !important;
+    }
+	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		max-height: 480px !important;
+    }
+	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		max-height: 900px !important;
+    }
+
+}

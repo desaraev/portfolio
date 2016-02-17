@@ -4737,7 +4737,7 @@ li.ui-multiselect-optgroup-label a {
 #footer {
 	margin: 0 -1px -1px -1px;
 	background-color: #303040;
-	height: 50px;
+	/*height: 50px;*/
 	clear: both;
 	color: #FFFFFF;
 	font-size: 9pt;

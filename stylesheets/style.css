@@ -197,14 +197,13 @@ a:focus {
 	color: #FFF;
 }
 .user-bar input[type="text"] {
-
 	margin-bottom: 0;
 	color: #FFF;
 	border-right: none;
 	border: none;
 	width: 200px;
 	font-size: 10pt;
-	background-color: #101020;
+	/*background-color: #101020;*/
 	border-bottom: 1px solid #FFF;
 	border-radius: 0;
 	padding: 6px 6px 5px 6px;
@@ -224,7 +223,7 @@ button[type="submit"]:hover {
 	background-color: #3468AF;
 }
 div#searchwrapper {
-    float: right;
+    float: right !important;
 }
 .search-btn, .search-btn:hover {
 	width: 25px;
@@ -2087,7 +2086,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	color: #303040;
+	color: #fff;
 	background-color: #5C6582;
 /*	margin-bottom: 15px;*/
 	margin-right: 10px;

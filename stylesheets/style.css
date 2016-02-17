@@ -16,6 +16,9 @@ body {
 	color: #5E5611;
 	background-color: #FFF;
 }
+.main-inner {
+	padding: 0px !important; 
+}
 .wrapper {
 	width: 1173px;
 	background: #FFF;

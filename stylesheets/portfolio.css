@@ -2,6 +2,14 @@
 .fixed {
 	position: fixed;
 }
+a:visited,  a:link, a {
+	text-decoration: none;
+	color: #2c9ab7;
+}
+a:focus, a:hover {
+ 	text-decoration: underline;
+  	color: #195760 !important;
+}
 aside {
 	margin: 10px 0;
 }
@@ -53,10 +61,6 @@ body, .post-body div, .post-body span, .jump-link a, a.home-link, a.home-link:vi
 .tabs-inner .widget li a, .popular-posts .item-content::before, div.small p {
 	font: normal bold 7.5pt sans-serif, Arial, Tahoma, Helvetica, FreeSans !important;
 	text-transform: uppercase;
-}
-.post-labels a, .post-labels2 a {
-	border-bottom: 1px solid #C0E5DE;
-	color: #A2A5AB !important;
 }
 .post-footer-line.post-footer-line-2 {
 	text-align: center;
@@ -363,7 +367,8 @@ input[type='submit'], textarea:focus, .button {
 .primarybutton .lined {
 	background: #E85C41 !important; 
 }
-.primarybutton .lined a, .primarybutton a {
+.primarybutton .lined a, .primarybutton a,
+.primarybutton .lined a:link, .primarybutton a:link {
  	color: #fff !important;
 }
 .button-wrapper {
@@ -433,7 +438,10 @@ button, a.button {
 button a, button a:hover {
 	box-shadow: none !important;
 }
-button, a.button, button a, a.button:hover, button a:hover  {
+button, a.button, button a,
+a:link.button, button a:link,
+a:active.button, button a:active,
+a.button:hover, button a:hover  {
 	text-decoration: none !important;
 	margin: 5px !important;
 	color: #000 !important;
@@ -646,14 +654,6 @@ footer .navbar {
 }
 [id*='toggle']:checked ~ .container {
     display: none;
-}
-a:visited,  a:link, a {
-	text-decoration: none;
-	color: #2c9ab7;
-}
-a:focus, a:hover {
- 	text-decoration: underline;
-  	color: #195760 !important;
 }
 .main-outer {
 	border: 3px solid #FFF;
@@ -1111,7 +1111,7 @@ code {
     padding: 10px 10px 0px 10px;
 	margin: 0 !important;
 }
-.profile-datablock a { 
+.profile-datablock a, .profile-datablock a:link, .profile-datablock a:visited { 
 	color: #272424 !important;
 	text-decoration: underline;
 }
@@ -1711,7 +1711,7 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
     background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
 
 }
-.status-msg-body a { 
+.status-msg-body a, .status-msg-body a:link, .status-msg-body a:visited { 
 	color: #000; 
 	text-decoration: underline;
 }
@@ -1750,7 +1750,12 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
   	margin: 32px auto;
   	text-align: center;
 }
-.jump-link a, a.home-link, a.home-link:visited, .button, #blog-pager-older-link a, #blog-pager-newer-link a, #Label1 select {
+.jump-link a, .jump-link a:link, .jump-link a:visited,
+a.home-link, a.home-link:link, a.home-link:visited, 
+.button, 
+#blog-pager-older-link a, #blog-pager-older-link a:link, #blog-pager-older-link a:visited,
+#blog-pager-newer-link a, #blog-pager-newer-link a:link, #blog-pager-newer-link a:visited,
+#Label1 select {
     color: #000 !important;
     width: 170px;
     padding: 15px;
@@ -1780,7 +1785,9 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
     border-color: transparent transparent transparent #e8f3ff;
     content: ' '
 }
-.displaypageNum a, .showpage a, .pagecurrent {
+.displaypageNum a, .displaypageNum a:link, .displaypageNum a:visited,
+.showpage a, .showpage a:link, .showpage a:visited,
+.pagecurrent {
     padding: 5px 10px;
     margin-right: 5px;
     border:1px solid #2a2c2f; 
@@ -1817,8 +1824,10 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 .mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
 .mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
 .mbt-pager li i { color: #ccc; font-size: 18px; }
-.mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
-.mbt-pager li a span { font-size: 15px; color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
+.mbt-pager li a strong, .mbt-pager li a:link strong, .mbt-pager li a:visited strong
+{ display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
+.mbt-pager li a span, .mbt-pager li a:link span, .mbt-pager li a:visited span
+{ font-size: 15px; color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
 .mbt-pager li a:hover span, 
 .mbt-pager li a:hover i { color: #ffffff; } 
 .mbt-pager li.previous i { float:left; margin-top:15%; margin-left:5%; } 
@@ -1969,7 +1978,7 @@ ul.lineofarticles li {
 .hover_img a {
     position:relative;
 }
-.hover_img a span { position:absolute; display:none; z-index:99; color: #000; }
+.hover_img a span, .hover_img a:link span, .hover_img a:visited span { position:absolute; display:none; z-index:99; color: #000; }
 .hover_img a:hover span { 
 	display: block;
     color: #000;
@@ -1998,7 +2007,7 @@ ul.lineofarticles li {
 .togglehover_img a {
     position:relative;
 }
-.togglehover_img a span { position:absolute; display:none; z-index:99; color: #000; }
+.togglehover_img a span, .togglehover_img a:link span, .togglehover_img a:visited span { position:absolute; display:none; z-index:99; color: #000; }
 .togglehover_img a:hover span { 
 	padding: 20px;
     bottom: 50px;
@@ -2056,7 +2065,7 @@ ul.lineofarticles li {
 	height: 101px;
 	width: 100%;
 }
-.viewallgrid li div,  .viewallgrid li div a {
+.viewallgrid li div,  .viewallgrid li div a, .viewallgrid li div a:link {
     background: #033A63;
     text-align: center;
     color: #fff !important;
@@ -2090,10 +2099,10 @@ ul.lineofarticles li {
     left: -110px;
 	padding: 104px;
 }
-.hover_img  .superman a, .hover_img  .superman a:hover {
+.hover_img  .superman a, .hover_img  .superman a:link, .hover_img  .superman a:hover {
     color: rgba(0, 0, 0, 0) !important;
 }
-.hover_img  .superman a span { position:absolute; display:none; z-index:99; color: #000; }
+.hover_img  .superman a span, .hover_img  .superman a:link span { position:absolute; display:none; z-index:99; color: #000; }
 .hover_img  .superman a:hover span { 
     display: block;
     color: #000;

@@ -1265,7 +1265,7 @@ code {
 }
 #socialicns a {
   	padding-right: 10px;
-  	color: #033e62;
+  	color: #033e62 !important;
 }
 .column-center-inner div#Profile1 {
     border: 1px solid #F0F1F3;

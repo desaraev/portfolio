@@ -1,42 +1,4 @@
 .clear { clear: both;}
-
-/**main theme only**/
-.mainbg  {
-	/*background: #BEE7ED url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-	background: #F0F1F3 url('https://3.bp.blogspot.com/-8EmJXqOIvJk/V1s9Sdg-h-I/AAAAAAAA9tY/qcJfz9G3U6shZwWFQPe9yjAQviozFYT7QCLcB/s1600/bluenobot.PNG');
-    background-repeat: repeat-x;*/
-	background: #F0F1F3 url('https://1.bp.blogspot.com/-jCDheUd40fs/V1y4c72n8WI/AAAAAAAA98o/4-q_D5cwESozU0LYPm1cvZa7EDqQmUs6gCLcB/s1600/bg2.png');
-	background-color: #BEE7ED !important;
-  	color: #656E7F;
-}
-.mainbg ul.mbt-pager {
-    display: none;
-}
-.mainbg .silly {
-    background: white;
-    border: 1px solid #B0DBE1;
-    border-top-color: rgba(190, 231, 237, 0.93);
-    box-shadow: 0 4px 3px 0 #BEE7ED;
-}
-.mainbg .center-circle {
-    background-color: #E85C41;
-}
-.mainbg header {
-	background: #F0F1F3 url('https://3.bp.blogspot.com/-8EmJXqOIvJk/V1s9Sdg-h-I/AAAAAAAA9tY/qcJfz9G3U6shZwWFQPe9yjAQviozFYT7QCLcB/s1600/bluenobot.PNG');
-	z-index: 0;
-}
-.mainbg .content-main .main.section {
-    border: 2px solid #B0DBE1;
-}
-.mainbg footer.bs-docs-footer {
-    background: #F0F1F3 url('https://4.bp.blogspot.com/-0HvaLSanhq0/V1srm67ZgCI/AAAAAAAA9s8/zvhONFaUvfsxA2mHVkrZFeHaYYecwUzTwCLcB/s320/blue.PNG');
-    padding: 10px;
-    background-repeat: repeat-x;
-}
-/** END EXTRA THEMES **/
-.main-container {
-	margin-top: -22px;
-}
 .fixed {
 	position: fixed;
 }
@@ -124,7 +86,6 @@ span.zippy.toggle-open:before {
 .collapsed a.toggle span.zippy:before {
 	content: 'view posts';
 }
-
 .timeline b {
     background: rgba(58, 183, 191, 0.34);
 }
@@ -134,7 +95,6 @@ span.zippy.toggle-open:before {
 *::after {
   box-sizing: border-box;
 }
-
 .toggle {
   display: block;
   text-align: center;
@@ -143,11 +103,9 @@ span.zippy.toggle-open:before {
     bottom: 0;
     z-index: 11111;
 }
-
 .togglecheckbox {
   display: none;
 }
-
 .togglebtn {
   display: block;
   margin: 0 auto;
@@ -157,7 +115,6 @@ span.zippy.toggle-open:before {
 .togglebtn:hover {
   cursor: pointer;
 }
-
 .togglebtn, .togglebtn:before, .togglebtn:after,
 .togglecheckbox,
 .togglecheckbox:before,
@@ -175,7 +132,6 @@ span.zippy.toggle-open:before {
   content: '';
   display: block;
 }
-
 /* ===================================================
    Day/Night and Gender toggle buttons
    =================================================== */
@@ -1263,7 +1219,7 @@ code {
 	width: 100% !important;
 	height: 37px;
 }
-#socialicns a {
+#socialicns a, #socialicns a:link, #socialicns a:visited, #socialicns a:active {
   	padding-right: 10px;
   	color: #033e62 !important;
 }

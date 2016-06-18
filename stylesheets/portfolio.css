@@ -658,6 +658,12 @@ footer .navbar {
 [id*='toggle']:checked ~ .container {
     display: none;
 }
+.main-container {
+	margin-top: -7px;
+}
+.content-main[role='main'] {
+    margin-top: -15px;
+}
 .main-outer {
 	border: 3px solid #FFF;
 	background: #FFF;

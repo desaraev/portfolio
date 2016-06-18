@@ -1,6 +1,6 @@
 /** THEMES **/
 .darkbg {
-    background-image: url(&quot;https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG&quot;);
+    background-image: url('https://2.bp.blogspot.com/-R2Jw_Z2lXEc/V1sqJ5gYUwI/AAAAAAAA9sw/E8uGbBdlzswf2kpfLXGc1zYAeD499necACLcB/s1600/yellowdots.PNG');
     background-attachment: fixed;
     background-repeat: repeat;
 	background-size: 14%;

@@ -63,7 +63,7 @@
 		visibility: hidden;
     }
 	.Header h1 a:after {
-        content: &#39;viewport &gt; 1181&#39;;  /** &gt; &gt; is greater than**/
+        content: 'viewport > 1181';  /** > > is greater than**/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -149,7 +149,7 @@
         border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(70, 226, 192, 0.57);
         border-width: 8px 8px 11px;
         border-style: solid;
-        content: &quot;&quot;;
+        content: '';
         display: block;
         height: 0;
         position: relative;
@@ -177,7 +177,7 @@
 	.dropdown ul li.first {
 		margin-top: -19px;
     }
-	li.dropdown:hover &gt; ul {
+	li.dropdown:hover > ul {
         visibility: visible !important;
 		left:0px;
     }
@@ -205,12 +205,12 @@
 	#homepage .fa-lg {
     	font-size: 1.333333em;
     }
-    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
-	#homepage img[src*=&#39;goodreads-128.png&#39;], #homepage img[src*=&#39;unnamed.png&#39;]{
+    #homepage img[src*='goodreads_logo'], #homepage img[src*='shelfari'], 
+	#homepage img[src*='goodreads-128.png'], #homepage img[src*='unnamed.png']{
         max-height: 113px !important;
         height: 19px;
     }
-    #homepage img[src*=&#39;Audible-Logo&#39;] {
+    #homepage img[src*='Audible-Logo'] {
         max-height: 72px !important;
         height: 48px;
         margin-bottom: -19px !important;
@@ -260,7 +260,7 @@
     	position: absolute !important;
     }
 	div.nav, div.nav ul, 
-	 input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+	 input[type='checkbox']#main-nav:checked~ul {
 		overflow: visible;
 		max-height: 380px !important;
 		text-align: left;
@@ -279,7 +279,7 @@
     	color: #656E7F;
     }
 	label.navbutton:after {
-    	content: &#39;menu&#39;;
+    	content: 'menu';
     	padding-left: 17px;
     }
 	div.nav ul li a:hover, div.nav a:hover, div.nav ul li:hover {
@@ -297,7 +297,7 @@
 /*********************************************************************************************/
 @media (min-width: 1100px) and (max-width: 1180px) {
 	.Header h1 a:after {
-        content: &#39;viewport 1100 : 1180&#39;;
+        content: 'viewport 1100 : 1180';
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -305,7 +305,7 @@
 /*********************************************************************************************/
 @media (min-width: 1000px) and (max-width: 1100px) {
 	.Header h1 a:after {
-        content: &#39;viewport 1000 : 1100&#39;;
+        content: 'viewport 1000 : 1100';
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -313,7 +313,7 @@
 /*********************************************************************************************/
 @media (min-width: 900px) and (max-width: 1000px) {
 	.Header h1 a:after {
-        content: &#39;viewport 900 : 1000&#39;;
+        content: 'viewport 900 : 1000';
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -321,7 +321,7 @@
 /*********************************************************************************************/
 @media (min-width: 700px) and (max-width: 900px) {
 	.Header h1 a:after {
-	    content: &#39;viewport 700 : 900px&#39;;  /** &lt; is less than**/
+	    content: 'viewport 700 : 900px';  /** < is less than**/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -357,18 +357,18 @@
 /** FONTS **/
 	.adbl-review-text, .PopularPosts .item-title a, .adbl-review-text span,  
 	.adbl-rev-qstn-txt, .adbl-rev-qstn-lbl, li h3.post-title, 
-	li h3.post-title a, [dir=&quot;ltr&quot;], .category, #homepage .rightupper,
+	li h3.post-title a, [dir='ltr'], .category, #homepage .rightupper,
 	.lineofarticles li .item-title {
 		font-size: 18px !important;
     }
 	article h1, h1, .rightupper article h1 {
         font-weight: bolder;
-        font: 23px &#39;open sans&#39;, sans-serif, arial !important;
+        font: 23px 'open sans', sans-serif, arial !important;
         line-height: 28px;
     }
 	h2 {
 		font-weight: bolder;
-      	font: 20px &#39;open sans&#39;, sans-serif, arial !important;	
+      	font: 20px 'open sans', sans-serif, arial !important;	
     }
 /**<!--Home Page CSS ONLY-->**/
 	.rightupper {
@@ -402,13 +402,13 @@
     #homepage .fa-lg {
         font-size: 3.333333em;
     }
-    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
-	#homepage img[src*=&#39;goodreads-128.png&#39;], 
-	#homepage img[src*=&#39;unnamed.png&#39;]{
+    #homepage img[src*='goodreads_logo'], #homepage img[src*='shelfari'], 
+	#homepage img[src*='goodreads-128.png'], 
+	#homepage img[src*='unnamed.png']{
         max-height: 113px !important;
         height: 45px;
     }
-    #homepage img[src*=&#39;Audible-Logo&#39;] {
+    #homepage img[src*='Audible-Logo'] {
         max-height: 72px !important;
         height: 72px;
         margin-bottom: -19px !important;
@@ -460,7 +460,7 @@
 /*********************************************************************************************/
 @media (min-width: 460px) and (max-width: 700px) {
 	.Header h1 a:after {
-	    content: &#39;viewport 460 : 700px&#39;;  
+	    content: 'viewport 460 : 700px';  
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -485,7 +485,7 @@
 /*********************************************************************************************/
 @media (min-width: 0px) and (max-width: 460px) {
 	.Header h1 a:after {
-        content: &#39;viewport &lt; 460px&#39;;/** &lt; is less than**/
+        content: 'viewport < 460px';/** < is less than**/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -493,10 +493,10 @@
 	.Header h1 a, .Header h1 {
 		font: normal normal 29px helvetica, Pacifico !important;
     }
-	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+	div.nav, div.nav ul, input[type='checkbox']#main-nav:checked~ul {
 		max-height: 480px !important;
     }
-	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+	div.nav, div.nav ul, input[type='checkbox']#main-nav:checked~ul {
 		max-height: 900px !important;
     }
 

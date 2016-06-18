@@ -2094,8 +2094,10 @@ ul.lineofarticles li {
     background: #fff;
 }
 .portfoliogrid {
-	max-width: 100%;
+    max-width: 100%;
     background: #eee;
+    padding: 10px;
+    float: left;
 }
 .portfoliogrid .imagewrapper img {
     height: auto;

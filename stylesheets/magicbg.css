@@ -4,7 +4,7 @@
 .magicbg  .post-labels2, .magicbg  #navbar ul .divider
  { display: none; }
 .magicbg {
-	/*background-image: url(&quot;https://4.bp.blogspot.com/-_xyRPIqCum0/V1qBwXCkkoI/AAAAAAAA9rA/0tGckrbOyuMcV49Yg8XVnkwIiUsn-oXcACLcB/s1600/57416_10100876575891850_859008630_o.jpg&quot;); */
+	/*background-image: url('https://4.bp.blogspot.com/-_xyRPIqCum0/V1qBwXCkkoI/AAAAAAAA9rA/0tGckrbOyuMcV49Yg8XVnkwIiUsn-oXcACLcB/s1600/57416_10100876575891850_859008630_o.jpg'); */
 	background-attachment: fixed; 
     background-size: 100%; 
 	background: #000;
@@ -26,7 +26,7 @@
     box-shadow: 0 0 0 transparent;
 }
 .magicbg .Header h1 a, .magicbg .Header h1 {
-    font: 22px/18px &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Helvetica, Arial, Verdana, sans-serif;
+    font: 22px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 .magicbg  blockquote {
     border: 5px solid #E3E3C7;
@@ -39,7 +39,7 @@
 .magicbg .Header h1 a, .magicbg .Header h1, .magicbg h2 span, .magicbg h2,
 .magicbg .content-main .main.section  {
     color: #fff !important;
-	font-family: &quot;Lucida Grande&quot;, Helvetica, open-sans, sans-serif;
+	font-family: 'Lucida Grande', Helvetica, open-sans, sans-serif;
     font-weight: 100;
 }
 .magicbg .post a, .magicbg .post a:hover {

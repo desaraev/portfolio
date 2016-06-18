@@ -532,7 +532,7 @@ input#abt-search-btn:hover {
     box-sizing: border-box;
     display: none;
 }
-aside .toggle-wrapper input[type=checkbox] {
+aside .toggle-wrapper input[type='checkbox'] {
 	float:right;
 }
 aside .toggle-inside li {

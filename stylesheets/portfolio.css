@@ -1263,48 +1263,9 @@ code {
 	width: 100% !important;
 	height: 37px;
 }
-/** SIDEBAR: Social Media **/
-div#HTML3 /**AUDIBLE AD**/{
-	margin: 0 auto;
-}
-#topwrap {
-	background: transparent 0 0 repeat-x;
-	width: 100%;
-}
-#topwrapper {
-    margin: 0 auto;
-    max-width: 1200px;
-	height: 45px;
-}
-#topwrapper #socialicns {
-	float: right;
-	padding: 10px;
-}
-#topwrapper #searchwrapper {
-	float: right;
-	min-width: 400px;
-	padding: 5px 0;
-}
-#topwrapper img.logoimg {
-    float: left;
-    height: 45px;
-    padding: 0px 10px 0px 24px;
-    margin: -3px 0px 0px 0px;
-}
-#topwrapper .logo {
-	float: left;
-}
-#topwrapper .logo {
-
-}
-.column-right-inner #HTML4 #socialicns {
-    background: #F7F6F6;
-    border: 2px solid #EEEDEE;
-    padding: 0px 10px;
-	display: none !important;
-}
 #socialicns a {
   	padding-right: 10px;
+  	color: #033e62;
 }
 .column-center-inner div#Profile1 {
     border: 1px solid #F0F1F3;

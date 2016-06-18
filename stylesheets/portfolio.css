@@ -13,6 +13,9 @@ a:focus, a:hover {
 aside {
 	margin: 10px 0;
 }
+p {
+	padding: 5px 0 10px;
+}
 h1, h2, h3, h4, h5 {
   	font-family: 'PT Sans', 'PT Sans', 'Helvetica neue', Helvetica, 'Source Sans Pro', Helvetica, Arial !important;
 	font-weight: bold;

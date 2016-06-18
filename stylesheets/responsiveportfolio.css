@@ -1,0 +1,503 @@
+/***** RESPONSIVE ==============================================*****/
+@media (min-width: 1200px) {
+	.toggle-wrapper.desktopmenu {
+		display: block;
+    }
+	.toggle-wrapper.mobilemenu {
+		display: none;
+    }
+}
+@media (max-width: 1199px) {
+	.toggle-wrapper.desktopmenu {
+		display: none;
+    }
+	.toggle-wrapper.mobilemenu {
+		display: block;
+		position: absolute;
+    	top: 0;
+    	left: 0;
+		z-index: 299;
+		background: #fff;
+    	padding: 2px 15px 2px 0px;
+    }
+    .mobilemenu p {
+        padding: 0 20px;
+    }
+	.toggle-wrapper.mobilemenu {
+		background: rgba(0, 0, 0, 0);
+    }
+	.toggle-inside {
+        background: #044169 !important;
+		padding: 10px 20px 0 20px;
+		transition: all .5s ease;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        outline: none;
+        box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border-top-left-radius: 255px 15px;
+        border-top-right-radius: 15px 225px;
+        border-bottom-right-radius: 225px 15px;
+        border-bottom-left-radius: 15px 255px;
+        margin: -11px 0 0 -15px;
+    }
+	.toggle-inside, .toggle-inside a {
+        color: #fff !important;
+    }
+	.magicbg .toggle-wrapper.mobilemenu, .darkbg .toggle-wrapper.mobilemenu {
+        top: 60px;
+        z-index: 316;
+    }
+	.magicbg .toggle-inside, .magicbg .toggle-inside a, 
+	.darkbg .toggle-inside, .darkbg .toggle-inside a {
+        background: #337ab7 !important;
+        color: #fff !important;
+    }
+	.content-main .main.section {
+    	margin: 1rem 0rem !important;
+    }
+}
+@media (min-width: 1181px) {
+	.mobileonly {
+		display: none !important;
+		visibility: hidden;
+    }
+	.Header h1 a:after {
+        content: &#39;viewport &gt; 1181&#39;;  /** &gt; &gt; is greater than**/
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+    .homeicons ul {
+        padding: 0 !important;
+    }
+    .homeicons ul li {
+        padding: 0 14px;
+    }
+/**--adjust hide upper search meant for smaller screens--**/
+	.column-center-outer {
+		max-width: 675px;
+	}
+	.region-inner.tabs-inner {
+      margin: -150px 0 -31px 0;
+  	}
+	div.nav ul{
+		padding-top: 0px;
+    }
+	div.nav ul li {
+    	padding: 10px 10px 10px 10px;
+    }
+	div.nav a {
+		float: left;
+    }
+	.header-inner .Header #header-inner {
+		min-height: 30px !important;
+		height: 125px !important;
+    }
+	.Header h1 a, .Header h1 {
+		text-transform: Uppercase;
+		font-weight: bold;
+    }
+    .halfscreen-lg, .halfpage { 
+		max-width: 50%;
+	}
+    .halfpage { 
+		width: 45%;
+        padding: 20px;
+	}
+/** MENU **/
+	ul.fullmenu {
+        position: absolute;
+       	top: -5px;
+		left: -32px;
+    }
+	ul.fullmenu, ul.fullmenu a {
+		color: #fff;
+		font-size: 13pt !important;
+    }
+	 ul.fullmenu .menu {
+		color: #656E7F;
+    }
+	ul.fullmenu li {
+        float: left;
+        list-style: none;
+        padding: 0 10px;
+    }
+	label.navbutton {
+		height: 30px;
+    }
+	.dropdown {
+		height: 20px;
+    }
+	.dropdown ul {
+        position: relative;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border: 8px solid rgba(70, 226, 192, 0.57);
+        width: 200px;
+        overflow: visible !important;
+        height: auto !important;
+        visibility: hidden;
+        z-index: 999;
+		margin: 15px 0px 0px 45px;
+		padding: 0px;
+		left: -999999px;
+    }
+	.dropdown ul:before {
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(70, 226, 192, 0.57);
+        border-width: 8px 8px 11px;
+        border-style: solid;
+        content: &quot;&quot;;
+        display: block;
+        height: 0;
+        position: relative;
+        width: 0;
+        left: 45%;
+        transform: translateX(-45%);
+        top: -27px;
+    }
+	.dropdown ul li {
+        background: #FFF;
+        border-bottom: 1px solid #EFEFEF;
+        text-align: left;
+        width: 186px;
+		padding: 7px !important;
+		margin: 0px;
+		float: none !important;
+    }
+	.dropdown ul li, .dropdown ul li a, .dropdown ul li a:hover {
+		color: #000;
+    }
+	.dropdown ul li:hover, .dropdown ul a:hover  {
+    	background: #BEE7ED;
+		text-decoration: none;
+    }
+	.dropdown ul li.first {
+		margin-top: -19px;
+    }
+	li.dropdown:hover &gt; ul {
+        visibility: visible !important;
+		left:0px;
+    }
+	li.dropdown:hover {
+		height: auto !important;
+    }
+/**--Home Page CSS ONLY--**/
+	#homepage div#HTML6 {
+        display: block;
+        right: 0px;
+        top: -50px;
+        position: absolute;
+        width: 55%;
+   	}
+	#HTML4 #socialicns {
+    	padding: 10px;
+	}
+    #homepage .videowrapper {
+        background: #EEEDEE;
+        float: left;
+        padding: 15px 40px;
+        text-align: left;
+        width: 455px !important;
+    }
+	#homepage .fa-lg {
+    	font-size: 1.333333em;
+    }
+    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
+	#homepage img[src*=&#39;goodreads-128.png&#39;], #homepage img[src*=&#39;unnamed.png&#39;]{
+        max-height: 113px !important;
+        height: 19px;
+    }
+    #homepage img[src*=&#39;Audible-Logo&#39;] {
+        max-height: 72px !important;
+        height: 48px;
+        margin-bottom: -19px !important;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 0px) and (max-width: 1180px) {
+	.desktoponly {
+		display: none !important;
+		visibility: hidden;
+    }
+	.viewallgrid li {
+		width: 47%;
+    }
+    .post.hentry {
+        max-width: 90%;
+        margin: 0 10%;
+    }
+	.homeicons ul li {
+        padding: 0 0.4rem;
+    }
+/**--adjust search--**/
+	#topwrapper #socialicns {
+    	padding: 10px 0 0 40px;
+    }
+/**--adjust search--**/
+  	div#HTML6 {
+  		width: 100%;
+		float: right;
+  	}
+ 	div#mainmenu {
+ 	 	float: left;
+ 	}
+	div#Label1 {
+    	width: 219%;
+    }
+/**--adjust logo--**/
+  	.Header h1 a, .Header h1 {
+		font: normal normal 30pt helvetica, Pacifico !important;
+		margin-top: 20px;
+  	}
+/**--adjust menu--**/
+    .row.fixed {
+        position: relative !important;
+    }
+	div.nav ul li.top, .navbutton, div.nav {
+    	position: absolute !important;
+    }
+	div.nav, div.nav ul, 
+	 input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		overflow: visible;
+		max-height: 380px !important;
+		text-align: left;
+    }
+	div.nav ul{
+		padding-top: 39px;
+    }
+	.nav ul li {
+		padding: 8px;
+		width: 45%;
+		float: left;
+		font-size: 35px; 
+    }
+	.nav li:hover {
+    	background: #BEE7ED;
+    	color: #656E7F;
+    }
+	label.navbutton:after {
+    	content: &#39;menu&#39;;
+    	padding-left: 17px;
+    }
+	div.nav ul li a:hover, div.nav a:hover, div.nav ul li:hover {
+        color: #000 !important;
+    }
+	/**SIDEBAR**/
+	#HTML10 img {
+        max-width: 100%;
+        height: auto;
+    }
+	.Header h1 a, .Header h1 {
+		margin: 0px;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 1100px) and (max-width: 1180px) {
+	.Header h1 a:after {
+        content: &#39;viewport 1100 : 1180&#39;;
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 1000px) and (max-width: 1100px) {
+	.Header h1 a:after {
+        content: &#39;viewport 1000 : 1100&#39;;
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 900px) and (max-width: 1000px) {
+	.Header h1 a:after {
+        content: &#39;viewport 900 : 1000&#39;;
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 700px) and (max-width: 900px) {
+	.Header h1 a:after {
+	    content: &#39;viewport 700 : 900px&#39;;  /** &lt; is less than**/
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+/*********************************************************************************************/	
+@media (min-width: 900px) and (max-width: 1180px) {
+/**--adjust main content--**/
+    .superman {display:none;}
+	.halfscreen-lg, .halfpage { 
+        max-width: 100%;
+    }
+    .halfpage { 
+		width: 100%;
+	}
+	.column-center-outer {
+    	max-width: 675px;
+    }
+	.main-inner .column-right-outer {
+      	max-width: 360px !important;      
+        width: 360px !important;
+        float: left; 
+        margin-right: -360px !important;
+    }
+    .region-inner.tabs-inner {
+      float: none;
+      margin: 14px 0 -5px 0;
+    }
+	#topwrapper #socialicns {
+        z-index: 1000000;
+        position: absolute;
+        right: 132px;
+    }
+/** FONTS **/
+	.adbl-review-text, .PopularPosts .item-title a, .adbl-review-text span,  
+	.adbl-rev-qstn-txt, .adbl-rev-qstn-lbl, li h3.post-title, 
+	li h3.post-title a, [dir=&quot;ltr&quot;], .category, #homepage .rightupper,
+	.lineofarticles li .item-title {
+		font-size: 18px !important;
+    }
+	article h1, h1, .rightupper article h1 {
+        font-weight: bolder;
+        font: 23px &#39;open sans&#39;, sans-serif, arial !important;
+        line-height: 28px;
+    }
+	h2 {
+		font-weight: bolder;
+      	font: 20px &#39;open sans&#39;, sans-serif, arial !important;	
+    }
+/**<!--Home Page CSS ONLY-->**/
+	.rightupper {
+		width: 100% !important;
+    }
+    .rightupper article,  .rightupper article {
+      float: left;
+      width: 42%;
+      margin: 10px 20px 10px 5px;
+      min-height: 340px;
+    }
+    .videowrapper {
+        width: 90% !important;
+		margin: 0 auto;
+    }
+	.lineofarticles li .item-snippet, .rightupper article p {
+		line-height: 20px !important;
+    }
+	ul.lineofarticles li {
+		min-height: 353px !important;
+    }
+	.boxheader ul {
+		padding: 0px !important;
+    }
+	div#FollowByEmail1 {
+		width: 100% !important;
+    }
+    #homepage #HTML4 #socialicns {
+        padding: 21px 10px;
+    }
+    #homepage .fa-lg {
+        font-size: 3.333333em;
+    }
+    #homepage img[src*=&#39;goodreads_logo&#39;], #homepage img[src*=&#39;shelfari&#39;], 
+	#homepage img[src*=&#39;goodreads-128.png&#39;], 
+	#homepage img[src*=&#39;unnamed.png&#39;]{
+        max-height: 113px !important;
+        height: 45px;
+    }
+    #homepage img[src*=&#39;Audible-Logo&#39;] {
+        max-height: 72px !important;
+        height: 72px;
+        margin-bottom: -19px !important;
+    }
+}
+@media (min-width: 900px) {
+	div.nav ul li:hover {
+    	color: #BEE7ED;
+    }
+}
+/*********************************************************************************************/	
+@media (min-width: 0px) and (max-width: 900px) {
+/**--adjust main content columns--**/
+    .main-inner .column-right-outer, .column-right-outer, 
+    .column-center-outer, .columns-inner, .column-center-inner {
+        width: 100% !important;
+		max-width: 100% !important;
+    }
+	.main-inner .column-right-outer, .column-right-outer {
+		float: none;
+		clear: both;
+		width: 100% !important;
+		max-width: 100% !important;
+    }
+	.main-inner .columns {
+		padding: 0px !important; 
+    }
+  	.region-inner.tabs-inner {
+      float: none;
+      margin: 34px 0 -30px 0;
+    }
+	#topwrapper #socialicns {
+		float: none !important;
+    }
+/**--hide some ads--**/
+    #AdSense3, #AdSense4, #PopularPosts1, #PopularPosts2, .nav .fa, #HTML11 {
+    	display: none;
+    }
+	.main-outer {
+    	margin-top: -12px;
+    }
+	div#HTML6 {
+		margin: 15px;
+	}
+	#homepage .videowrapper, #homepage .rightupper, #homepage div#FollowByEmail1 {
+		width: 85% !important;
+	}
+}
+/*********************************************************************************************/
+@media (min-width: 460px) and (max-width: 700px) {
+	.Header h1 a:after {
+	    content: &#39;viewport 460 : 700px&#39;;  
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+/*********************************************************************************************/
+@media (min-width: 0px) and (max-width: 700px) {
+/**--adjust logo--**/
+	.Header h1 a, .Header h1, .titlewrapper h1, .titlewrapper h1 a, .header h1, .header-inner .Header .titlewrapper {
+		font: normal normal 35px helvetica, Pacifico !important;
+		font-size: 35px;
+    }
+	#topwrapper {
+    	display: none;
+	}
+    .column-right-inner #HTML4 #socialicns { 
+		display: block !important; 
+	}
+	#homepage .videowrapper, #homepage .rightupper, #homepage div#FollowByEmail1 {
+		width: 80% !important;
+	}
+}
+/*********************************************************************************************/
+@media (min-width: 0px) and (max-width: 460px) {
+	.Header h1 a:after {
+        content: &#39;viewport &lt; 460px&#39;;/** &lt; is less than**/
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+/**--adjust logo--**/
+	.Header h1 a, .Header h1 {
+		font: normal normal 29px helvetica, Pacifico !important;
+    }
+	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		max-height: 480px !important;
+    }
+	div.nav, div.nav ul, input[type=&#39;checkbox&#39;]#main-nav:checked~ul {
+		max-height: 900px !important;
+    }
+
+}

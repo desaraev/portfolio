@@ -919,9 +919,6 @@ display:none;
 .social a {
 	cusor: pointer;
 }
-footer nav {
-	background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-}
 .videoBar-container { 
 	width: 100% !important; 
 }
@@ -3765,50 +3762,6 @@ display:none;
 }
 .social a {
 	cusor: pointer;
-}
-footer nav {
-	background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-}
-.videoBar-container { 
-	width: 100% !important; 
-}
-.videoBar-container tr { 
-	float: left; 
-	display: inline; 
-}
-#footer-3 /**disclaimer**/ {
-  background: #45484D;
-  padding: 0px 10px;
-  margin: -58px -10px;
-}
-#footer-3 .widget h2 {
-	color: #FFF !important;
-}
-#footer-3 .title { 
-  text-align: center;
-  visibility: hidden;
-  display: none;
-}
-.homeicons {
-    margin: 10px 0 20px 0;
-}
-.homeicons ul li.first {
-    padding: 0 !important;
-}
- .homeicons ul li.middle {
-    padding-right: 0 !important;
-}
-.homeicons ul li {
-	list-style: none;
-	padding: 0 7px 0 7px;
-	text-align: center;
-}
-.homeicons a {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
-}
-.homeicons a:hover span {
-    top: 0 !important;
-    border-radius: 15px 0 15px 15px !important;
 }
 
 .btn-right {

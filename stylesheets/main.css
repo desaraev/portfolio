@@ -711,7 +711,6 @@ header .navbar-toggle {
   }
 
 #header-inner {
-  	background-position: background-position: 0 -9px !important;
   	background-size: 100% !important;
 }
 .Header .description, #PageList1 {
@@ -2037,57 +2036,7 @@ ul.lineofarticles li {
     padding: 5px;
     background: #eee;
 }
-.viewallgrid .imagewrapper {
-    max-height: 115px;
-    overflow-x: hidden;
-}
-.viewallgrid h1 {
-    clear: both;
-}
-.viewallgrid ul {
-    margin: 0px !important;
-	float: left;
-    background: #eee;
-    padding: 16px !important;
-    border: 1px solid #ddd;
-    border-radius: 0px 8px 8px 8px;
-}
-.viewallgrid li {
-    list-style: none;
-	float: left;
-	width: 23%;
-    margin: 0 1%;
-	min-height: 165px;
-    background: #033a63 url('https://1.bp.blogspot.com/-jCDheUd40fs/V1y4c72n8WI/AAAAAAAA98o/4-q_D5cwESozU0LYPm1cvZa7EDqQmUs6gCLcB/s1600/bg2.png');
-}
-.viewallgrid img {
-	height: 101px;
-	width: 100%;
-}
-.viewallgrid li div,  .viewallgrid li div a {
-    background: #033A63;
-    text-align: center;
-    color: #fff !important;
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-}
-.viewall {
-    display: block;
-    width: 42%;
-    position: absolute;
-    top: -12px;
-    right: 0px;
-    z-index: 1;
-}
-.viewall .right, .viewall .left {
-	margin: 0px;
-	padding: 0 10px 0 0;
-}
-.viewall .hover_img a:hover span {
-	border-radius: 17px 0px 11px 11px !important;
-	right: 0px !important;
-    top: 25px !important;
-	margin: 0 0 0 -50px;
-}
+
 /*------------START CSS ONLY SUPER HEROES (my fav is actually Iron man)------------*/
 .hover_img {
 	position: relative;
@@ -4864,7 +4813,7 @@ ul.lineofarticles li {
     display: block;
     width: 42%;
     position: absolute;
-    top: -12px;
+    top: 0px;
     right: 0px;
     z-index: 1;
 }

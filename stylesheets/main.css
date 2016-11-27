@@ -135,6 +135,7 @@ color: #000000;
 line-height: 1.6;
 }
 #blog-pager {
+	display: none;
 }
 #comments .comment-author {
 padding-top: 1.5em;

@@ -1707,11 +1707,6 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 	border: 0px solid rgba(0, 0, 0, 0) !important;
 }
-.silly {
-	margin-top: 18px;
-    background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-
-}
 .status-msg-body a { 
 	color: #000; 
 	text-decoration: underline;
@@ -4393,7 +4388,7 @@ h2.date-header {
     flex-direction: row;
     justify-content: center;
 }
-<!--.content-main .main.section {
+/**.content-main .main.section {
 	border: 1px solid #000;
 	align-self: center;
 	background: rgba(0, 0, 0, 0);
@@ -4411,7 +4406,7 @@ h2.date-header {
 	border-bottom-right-radius: 225px 15px;
 	border-bottom-left-radius: 15px 255px;
 	background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
-}-->
+}**/
 
 html body .region-inner {
 	padding: 0px !important; 

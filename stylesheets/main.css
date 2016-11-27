@@ -68,8 +68,8 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 color: #ffffff;
 }
 .desktopmenu li {
-	float:left;
-	list-style:none;
+    list-style: none;
+    float: left;
 }
 /* Headings
 ----------------------------------------------- */

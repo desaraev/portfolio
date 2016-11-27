@@ -1,5 +1,5 @@
 @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
-
+.blog-pager { display: none;}
 .wf-inactive .tabs-inner .widget li a, .wf-opensans-n7-loading .tabs-inner .widget li a, .wf-opensans-n7-inactive .tabs-inner .widget li a {
   font-family: sans-serif;
 }

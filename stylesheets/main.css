@@ -67,6 +67,10 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 .Header h1 a {
 color: #ffffff;
 }
+.desktopmenu li {
+	float:left;
+	list-style:none;
+}
 /* Headings
 ----------------------------------------------- */
 h2 {
@@ -2198,15 +2202,7 @@ span.caret-right {
 	.toggle-inside, .toggle-inside a {
         color: #fff !important;
     }
-	.magicbg .toggle-wrapper.mobilemenu, .darkbg .toggle-wrapper.mobilemenu {
-        top: 60px;
-        z-index: 316;
-    }
-	.magicbg .toggle-inside, .magicbg .toggle-inside a, 
-	.darkbg .toggle-inside, .darkbg .toggle-inside a {
-        background: #337ab7 !important;
-        color: #fff !important;
-    }
+	
 	.content-main .main.section {
     	margin: 1rem 0rem !important;
     }

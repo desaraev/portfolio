@@ -453,11 +453,12 @@ input#abt-search-btn:hover {
     cursor: pointer;
 }
 #abt-search-box {
-    border: 1px solid #d2d2d2;
-    background: none repeat scroll 0 0 #FFFFFF;
-    padding: 1rem;
+	border: 0px solid #d2d2d2;
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding: 1rem;
 	margin: 0px auto;
 	width: 98%;
+	box-shadow: inset 0px 0px 2px 1px #ccc;
 }
 /******************TOGGLE ****************/
 .toggle-wrapper {
@@ -3241,25 +3242,7 @@ a.button.small {
 	border: 1px solid #BEE7ED;
     margin: -3px 0 0 0;
 }
-/**Search button**/
-#abt-search-btn {
-    background: none repeat scroll 0 0 transparent;
-    border: 0 none;
-    border-radius: 0 0 0 0;
-    color: #000;
-    padding: 1rem !important;
-    text-transform: uppercase;
-}
-input#abt-search-btn:hover {
-    cursor: pointer;
-}
-#abt-search-box {
-    border: 1px solid #d2d2d2;
-    background: none repeat scroll 0 0 #FFFFFF;
-    padding: 1rem;
-	margin: 0px auto;
-	width: 100%;
-}
+
 /******************TOGGLE ****************/
 .toggle-wrapper {
     position: relative;

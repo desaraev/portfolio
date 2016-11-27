@@ -1,11 +1,5 @@
 @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
 .blog-pager { display: none;}
-.wf-inactive .tabs-inner .widget li a, .wf-opensans-n7-loading .tabs-inner .widget li a, .wf-opensans-n7-inactive .tabs-inner .widget li a {
-  font-family: sans-serif;
-}
-.wf-inactive h3.post-title, .wf-opensans-n7-loading h3.post-title, .wf-opensans-n7-inactive h3.post-title, .wf-inactive .comments h4, .wf-opensans-n7-loading .comments h4, .wf-opensans-n7-inactive .comments h4 {
-  font-family: sans-serif;
-}
 
 body {
 color: #8c7b7b;
@@ -285,7 +279,6 @@ footer .navbar {
     background-image: none;
     white-space: nowrap;
     padding: 6px 12px;
-    font-size: 14px;
     line-height: 1.42857143;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -381,25 +374,6 @@ a:focus, a:hover {
 .main-inner .column-center-inner {
 	border-right: 1px solid #EEEDEE;
 }
-h2 span, h2 {
-    font-family: 'Open Sans', 'PT Sans', serif, arial !important;
-    color: #000;
-}
-h2.date-header span {
-	font-size: 11pt;
-    font-size: 12px;
-    font-weight: normal;
-}
-.georgia, a.georgia, .georgia a {
-    background-color: white; 
-	color: black; 
-	font-family: georgia !important; 
-	font-size: 20px; 
-	font-weight: bold; 
-	line-height: 30px; 
-	outline: none; 
-	text-decoration: none;
-}
 .right {
 	float: right;
 }
@@ -467,7 +441,6 @@ div#___gcse_0 {
 
 .PageList a {
     color: #fff !important;
-    font-size: 15px !important;
     border-right: 1px solid rgba(244, 229, 191, 0.09) !important;
 }
 .charlie-profile-img {
@@ -884,7 +857,6 @@ code {
     z-index: 100000;
     width: 165px;
     text-transform: uppercase;
-    font-size: 12px;
 	font-weight: bold;
 }
 .PopularPosts .item-title a:hover {
@@ -897,7 +869,6 @@ code {
     width: 178px;
     margin: -8px 1px 0 0px;
     height: 64px;
-    font-size: 12px;
     letter-spacing: 0.5px !important;
     line-height: 1.23;
     overflow: hidden;
@@ -983,7 +954,6 @@ div#HTML3 /**AUDIBLE AD**/{
 }
 .column-center-inner a.profile-name-link.g-profile {
     padding: 0px;
-    font-size: 16pt;
 }
 .column-right-inner #Profile1 {
 	display: none;
@@ -1038,7 +1008,6 @@ div#HTML3 /**AUDIBLE AD**/{
     border-top-color: rgba(0, 0, 0, 0) !important;
     background-color: rgba(0, 0, 0, 0) !important;
     color: #1E4C5B !important;
-    font-size: 20px !important;
 }
 input.gsc-search-button {
 	width: 60px;
@@ -1050,7 +1019,6 @@ input.gsc-search-button {
     background: #000;
     color: #FFF;
     cursor: pointer;
-    font-size: 13px;
     height: 26px;
     z-index: 0;
 }
@@ -1067,7 +1035,6 @@ input.gsc-input, .FollowByEmail .follow-by-email-inner input {
 input.gsc-search-button, .FollowByEmail .follow-by-email-inner .follow-by-email-submit {
   	width: 95%;
     height: 22px;
-    font-size: 13px;
     border: 1px inset #656E7F;
     background: #000 !important;
     text-transform: uppercase;
@@ -1109,14 +1076,12 @@ blockquote p {
 	font-style: italic;
 }
 blockquote {
-    font-size: 2rem;
     border: 5px solid #BEE7ED;
     background: #FFF;
     padding: 1rem 5rem;
     margin: 3rem;
     transition: all .5s ease;
     color: #41403E;
-    font-size: 2rem;
     letter-spacing: 1px;
     outline: none;
     box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
@@ -1162,12 +1127,10 @@ img.topthumbnail {
 }
 .post-body div.author {
     line-height: 15px;
-    font-size: 11px !important;
     color: #5C5C5C;
 }
 .category h4 {
     line-height: 15px;
-    font-size: 11px !important;
     color: #FFF;
     margin: 0 0 0 10px;
     text-shadow: 0px 1px 0px #000;
@@ -1175,7 +1138,6 @@ img.topthumbnail {
 }
 .category h3 {
 	text-align: center;
-	font-size: 12pt !important;
     margin: 0px;
     font-style: normal;
 }
@@ -1225,7 +1187,6 @@ img.stars.rating {
 }
 .adbl-rating-label {
 	float: left; 
-	font-size: 11px; 
 	margin: 0px 0px 0px 10px; 
 	padding: 0px; 
 	width: auto;
@@ -1407,7 +1368,6 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
     -webkit-border-radius: 3px; 
     -moz-border-radius: 3px;
     border-radius: 3px;
-    font-size:12px;
     text-decoration:none; 
     display:inline-block;
     font-weight:bold; 
@@ -1480,96 +1440,7 @@ iframe[id*="google_ads"], #ads, .ads {
     padding-top: 10px;
 }
 
-/****** HOME ==================================**/
 
-#homepage h2, #homepage .entry-content h2 {
-	font: normal normal 18px Pacifico;
-}
-.rightupper {
-    width: 45%;
-    float: left;
-    margin: 0 0 10px 25px;
-    letter-spacing: .2px !important;
-    font-size: 9.3pt;
-}
-.rightupper article {
-    border-bottom: 1px solid #EEEDEE;
-    padding: 5px 5px 10px 5px;
-}
-.rightupper article h1 {
-    color: #000;
-    font: 16px 'open sans', sans-serif, arial;
-    line-height: 21px;
-    margin-top: 3px;
-}
-.rightupper article p {
-    line-height: 1.2 !important;
-    font-size: 10pt;
-}
-.rightupper .imgwrapper {
-    height: 84px;
-    overflow: hidden;
-    float: left;
-    margin-right: 10px;
-}
-.rightupper article img {
-    float: left;
-    margin: 0;
-    padding: 0px;
-    opacity: 0.3;
-    width: 80px;
-    border: 0px solid #FFF !important;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
-}
-.rightupper article img:hover {
-	opacity: 1;
-}
-.boxheader {
-    border: 1px solid #CCC;
-    float: left;
-    padding: 0px 0px 10px 0px;
-}
-.boxheader h1 {
-    margin: -20px 0 0 26px;
-    background: #FFF;
-    width: 218px;
-    padding: 5px 0 0 10px;
-}
-ul.lineofarticles li {
-    float: left;
-    list-style: none;
-    height: 100%;
-    width: 180px;
-    margin-left: 24px;
-    min-height: 282px !important;
-}
-.lineofarticles li img {
-    width: 180px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    border: 0px solid #FFF !important;
-    vertical-align: middle;
-    background: #0032F9;
-}
-.lineofarticles li img:hover {
-	opacity: .8;
-}
-.lineofarticles li .item-title {
-    color: #000;
-    font: 16px 'open sans', sans-serif, arial;
-    line-height: 21px;
-    margin-top: 3px;
-}
-#homepage .lineofarticles li .item-snippet, .rightupper article p {
-    color: #5C5C5C;
-    line-height: 15px;
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding: 0;
-}
-.follow-by-email-inner td {
-	width: 100%;
-}
 .highlight {
     box-shadow: 0 14px 34px 3px rgba(255, 241, 162, 0.35);
     width: 100%;
@@ -1769,7 +1640,6 @@ code {
     border-top-color: rgba(0, 0, 0, 0) !important;
     background-color: rgba(0, 0, 0, 0) !important;
     color: #1E4C5B !important;
-    font-size: 20px !important;
 }
 input.gsc-search-button {
 	width: 60px;
@@ -1781,7 +1651,6 @@ input.gsc-search-button {
     background: #000;
     color: #FFF;
     cursor: pointer;
-    font-size: 13px;
     height: 26px;
     z-index: 0;
 }
@@ -1798,7 +1667,6 @@ input.gsc-input, .FollowByEmail .follow-by-email-inner input {
 input.gsc-search-button, .FollowByEmail .follow-by-email-inner .follow-by-email-submit {
   	width: 95%;
     height: 22px;
-    font-size: 13px;
     border: 1px inset #656E7F;
     background: #000 !important;
     text-transform: uppercase;
@@ -1840,14 +1708,12 @@ blockquote p {
 	font-style: italic;
 }
 blockquote {
-    font-size: 2rem;
     border: 5px solid #BEE7ED;
     background: #FFF;
     padding: 1rem 1rem;
     margin: 0 1rem;
     transition: all .5s ease;
     color: #41403E;
-    font-size: 2rem;
     letter-spacing: 1px;
     outline: none;
     box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
@@ -1890,26 +1756,9 @@ img.topthumbnail {
 }
 .post-body div.author {
     line-height: 15px;
-    font-size: 11px !important;
     color: #5C5C5C;
 }
-.category h4 {
-    line-height: 15px;
-    font-size: 11px !important;
-    color: #FFF;
-    margin: 0 0 0 10px;
-    text-shadow: 0px 1px 0px #000;
-    font-weight: 200;
-}
-.category h3 {
-	text-align: center;
-	font-size: 12pt !important;
-    margin: 0px;
-    font-style: normal;
-}
-.category {
-	background: #656E7F;
-}
+
 img.stars.rating {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   border: 0px solid rgba(0, 0, 0, 0) !important;
@@ -1953,7 +1802,6 @@ img.stars.rating {
 }
 .adbl-rating-label {
 	float: left; 
-	font-size: 11px; 
 	margin: 0px 0px 0px 10px; 
 	padding: 0px; 
 	width: auto;
@@ -2045,7 +1893,6 @@ li.adbl-review {
     -webkit-border-radius: 3px; 
     -moz-border-radius: 3px;
     border-radius: 3px;
-    font-size:12px;
     text-decoration:none; 
     display:inline-block;
     font-weight:bold; 
@@ -2118,93 +1965,6 @@ iframe[id*="google_ads"], #ads, .ads {
     padding-top: 10px;
 }
 
-/****** HOME ==================================**/
-
-#homepage h2, #homepage .entry-content h2 {
-	font: normal normal 18px Pacifico;
-}
-.rightupper {
-    width: 45%;
-    float: left;
-    margin: 0 0 10px 25px;
-    letter-spacing: .2px !important;
-    font-size: 9.3pt;
-}
-.rightupper article {
-    border-bottom: 1px solid #EEEDEE;
-    padding: 5px 5px 10px 5px;
-}
-.rightupper article h1 {
-    color: #000;
-    font: 16px 'open sans', sans-serif, arial;
-    line-height: 21px;
-    margin-top: 3px;
-}
-.rightupper article p {
-    line-height: 1.2 !important;
-    font-size: 10pt;
-}
-.rightupper .imgwrapper {
-    height: 84px;
-    overflow: hidden;
-    float: left;
-    margin-right: 10px;
-}
-.rightupper article img {
-    float: left;
-    margin: 0;
-    padding: 0px;
-    opacity: 0.3;
-    width: 80px;
-    border: 0px solid #FFF !important;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
-}
-.rightupper article img:hover {
-	opacity: 1;
-}
-.boxheader {
-    border: 1px solid #CCC;
-    float: left;
-    padding: 0px 0px 10px 0px;
-}
-.boxheader h1 {
-    margin: -20px 0 0 26px;
-    background: #FFF;
-    width: 218px;
-    padding: 5px 0 0 10px;
-}
-ul.lineofarticles li {
-    float: left;
-    list-style: none;
-    height: 100%;
-    width: 180px;
-    margin-left: 24px;
-    min-height: 282px !important;
-}
-.lineofarticles li img {
-    width: 180px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    border: 0px solid #FFF !important;
-    vertical-align: middle;
-    background: #0032F9;
-}
-.lineofarticles li img:hover {
-	opacity: .8;
-}
-.lineofarticles li .item-title {
-    color: #000;
-    font: 16px 'open sans', sans-serif, arial;
-    line-height: 21px;
-    margin-top: 3px;
-}
-#homepage .lineofarticles li .item-snippet, .rightupper article p {
-    color: #5C5C5C;
-    line-height: 15px;
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding: 0;
-}
 .follow-by-email-inner td {
 	width: 100%;
 }

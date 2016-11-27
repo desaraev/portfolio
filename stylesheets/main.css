@@ -6,6 +6,8 @@ font-size: 1.3em;
 color: #8c7b7b;
 min-width: 0 !important;
 }
+/**************font************/
+
 a:link {
 text-decoration:none;
 color: #53b6cc;
@@ -88,7 +90,6 @@ input[type="submit"], textarea:focus, .button {
     margin:0 1rem;
     transition:all .5s ease;
     color:#41403E;
-    font-size:2rem;
     letter-spacing:1px;
     outline:none;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
@@ -186,7 +187,6 @@ input#abt-search-btn:hover {
     overflow: hidden;
     transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 	line-height: 3.5rem;
-    font-size: 2.5rem;
 }
 .toggle-wrapper div[class*='toggle-inside'] {
    /* margin: -22px 0 13px 0;*/
@@ -224,7 +224,6 @@ aside .toggle-inside li {
     min-width: 169px;
     padding: 17px !important;
     margin: 2px 0 0 !important;
-    font-size: 14px;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -264,7 +263,6 @@ footer .navbar {
     -moz-border-radius: 3px;
     border-radius: 3px;
     border-radius: 4px;*/
-    font-size: 1.5rem;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
     display: inline-block;
@@ -534,7 +532,6 @@ label.navbutton {
     box-shadow: 0px 1px 2px #4C4848;*/
     background: rgba(245, 244, 245, 0.65);
     padding: 10px 15px;
-    font-size: 21px;
 	margin: 0 auto;
 	max-width: 1174px;
 }  
@@ -551,7 +548,6 @@ label.navbutton:before{
     top:1px;
     padding:0.3em 0.5em;
     font-weight:bold;
-    font-size:1.5em;
     -webkit-transform:rotate(0deg);
     -moz-transform:rotate(0deg);
     -ms-transform:rotate(0deg);
@@ -676,7 +672,6 @@ display:none;
 .btn-right {
 	background: none;
   	border: 0;
-  	font-size: 22px;
   	line-height: 2em;
 	position: relative;
     height: 2em;
@@ -1046,7 +1041,6 @@ input.gsc-search-button, .FollowByEmail .follow-by-email-inner .follow-by-email-
 input.gsc-search-button:before {
     font-family: 'atl-icons' !important;
     content: '\f117';
-    font-size: 12px;
 }
 .BlogArchive #ArchiveList ul ul li {
 	padding-left: 0;
@@ -1397,9 +1391,9 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 .mbt-pager li.next:hover, .mbt-pager li.previous:hover  {background:#BEE7ED; }
 .mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
 .mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
-.mbt-pager li i { color: #ccc; font-size: 18px; }
-.mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
-.mbt-pager li a span { font-size: 15px; color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
+.mbt-pager li i { color: #ccc; }
+.mbt-pager li a strong { display: block;   color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
+.mbt-pager li a span {  color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
 .mbt-pager li a:hover span, 
 .mbt-pager li a:hover i { color: #ffffff; } 
 .mbt-pager li.previous i { float:left; margin-top:15%; margin-left:5%; } 
@@ -1449,7 +1443,6 @@ iframe[id*="google_ads"], #ads, .ads {
     background: #035c79;
 }
 .caption { 
-    font-size: 1.5rem !important;
     text-align: center;
     width: 100%;
 }
@@ -1678,7 +1671,6 @@ input.gsc-search-button, .FollowByEmail .follow-by-email-inner .follow-by-email-
 input.gsc-search-button:before {
     font-family: 'atl-icons' !important;
     content: '\f117';
-    font-size: 12px;
 }
 .BlogArchive #ArchiveList ul ul li {
 	padding-left: 0;
@@ -1922,9 +1914,9 @@ li.adbl-review {
 .mbt-pager li.next:hover, .mbt-pager li.previous:hover  {background:#BEE7ED; }
 .mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
 .mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
-.mbt-pager li i { color: #ccc; font-size: 18px; }
-.mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
-.mbt-pager li a span { font-size: 15px; color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
+.mbt-pager li i { color: #ccc;  }
+.mbt-pager li a strong { display: block;   color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:oswald, sans-serif, arial; margin-bottom:10px;}
+.mbt-pager li a span {  color: #666;  font-family:oswald,Helvetica, arial; margin:0px;} 
 .mbt-pager li a:hover span, 
 .mbt-pager li a:hover i { color: #ffffff; } 
 .mbt-pager li.previous i { float:left; margin-top:15%; margin-left:5%; } 

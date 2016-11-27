@@ -70,6 +70,7 @@ color: #ffffff;
 .desktopmenu li {
     list-style: none;
     float: left;
+	padding: 0px 10px 0px;
 }
 /* Headings
 ----------------------------------------------- */
@@ -896,6 +897,9 @@ input[type='checkbox']#main-nav:checked~ul{
 	box-shadow: 0 0 0 0 transparent;
 }
 /** FOOTER **/
+footer a.right {
+    padding: 0 10px;
+}
 .post-share-buttons {
 	float: right;
 	width: 186px;

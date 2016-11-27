@@ -4415,11 +4415,7 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 	border: 0px solid rgba(0, 0, 0, 0) !important;
 }
-.silly {
-	margin-top: 18px;
-    background: #F0F1F3 url('http://4.bp.blogspot.com/-z1BlXL6gSzg/VP46TT-6NHI/AAAAAAAAzek/3nAAGfsIp3w/s1600/light_wool.png');
 
-}
 .status-msg-body a { 
 	color: #000; 
 	text-decoration: underline;

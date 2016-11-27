@@ -4807,8 +4807,6 @@ ul.lineofarticles li {
 }
 .viewall {
     display: block;
-    position: absolute;
-    top: 0px;
     right: 0px;
     z-index: 1;
 }

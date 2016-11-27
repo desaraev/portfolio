@@ -2,6 +2,7 @@
 .blog-pager { display: none;}
 
 body {
+font-size: 1.3em;
 color: #8c7b7b;
 min-width: 0 !important;
 }

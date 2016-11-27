@@ -38,6 +38,10 @@ margin: 0 auto;
 .content-inner {
 padding: 10px;
 }
+
+img.right {
+    padding: 10px 0px 10px 3.5rem;
+}
 /* Header
 ----------------------------------------------- */
 .header-outer {

@@ -4420,34 +4420,7 @@ img[src*='goodreads_logo'], img[src*='shelfari'], img[src*='goodreads-128.png'],
 	color: #000; 
 	text-decoration: underline;
 }
-/** BEST OF AWARDS IMAGES **/
-.post-body .bestofaward {
-	border: 1px solid #EEEDEE;
-	clear: both;
-	text-align: center;
-}
-.bestofaward li {
-    list-style: none;
-    float: left;
-    padding: 0px 5px;
-}
-[href*='Favorite%3A%20'] img {
-    border: 0px solid rgba(0, 0, 0, 0) !important;
-    box-shadow: 0px 0px 0px #FFF !important;
-    width: 25%;
-	min-width: 90px;
-    height: auto;
-}
-[href*="Fav%3A%20NYT"] img {
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    border: 0px solid rgba(0, 0, 0, 0) !important;
-}
-[href*="Fav%3A%20PW"] img {
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    border: 0px solid rgba(0, 0, 0, 0) !important;
-    width: 25%;
-    border-radius: 80px;
-}
+
 /** Hide Profile on main page ================**/
 /** READ MORE Pagination and BUTTONS **/
 /**Pagination from http://helplogger.blogspot.com/2014/04/how-to-add-numbered-page-navigation-widget-for-blogger.html **/

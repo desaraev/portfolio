@@ -63,7 +63,7 @@
 		visibility: hidden;
     }
 	.Header h1 a:after {
-        content: 'viewport > 1181';  /** > > is greater than**/
+        /*content: 'viewport > 1181';  /** > > is greater than**/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -297,7 +297,7 @@
 /*********************************************************************************************/
 @media (min-width: 1100px) and (max-width: 1180px) {
 	.Header h1 a:after {
-        content: 'viewport 1100 : 1180';
+        /*content: 'viewport 1100 : 1180';*/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -305,7 +305,7 @@
 /*********************************************************************************************/
 @media (min-width: 1000px) and (max-width: 1100px) {
 	.Header h1 a:after {
-        content: 'viewport 1000 : 1100';
+       /* content: 'viewport 1000 : 1100';*/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -313,7 +313,7 @@
 /*********************************************************************************************/
 @media (min-width: 900px) and (max-width: 1000px) {
 	.Header h1 a:after {
-        content: 'viewport 900 : 1000';
+       /* content: 'viewport 900 : 1000';*/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -321,7 +321,7 @@
 /*********************************************************************************************/
 @media (min-width: 700px) and (max-width: 900px) {
 	.Header h1 a:after {
-	    content: 'viewport 700 : 900px';  /** < is less than**/
+	 /*   content: 'viewport 700 : 900px';  /** < is less than**/
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -460,7 +460,7 @@
 /*********************************************************************************************/
 @media (min-width: 460px) and (max-width: 700px) {
 	.Header h1 a:after {
-	    content: 'viewport 460 : 700px';  
+	/*    content: 'viewport 460 : 700px';  */
         padding: 0 10px;
         font-size: 1rem;
     }
@@ -485,7 +485,7 @@
 /*********************************************************************************************/
 @media (min-width: 0px) and (max-width: 460px) {
 	.Header h1 a:after {
-        content: 'viewport < 460px';/** < is less than**/
+        /*content: 'viewport < 460px';/** < is less than**/
         padding: 0 10px;
         font-size: 1rem;
     }

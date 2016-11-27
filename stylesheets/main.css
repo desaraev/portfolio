@@ -5363,7 +5363,7 @@ span.caret-right {
     .column-center-outer, .columns-inner, .column-center-inner {
         width: 100% !important;
 		max-width: 100% !important;
-    }
+    } 
 	.main-inner .column-right-outer, .column-right-outer {
 		float: none;
 		clear: both;

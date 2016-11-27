@@ -247,7 +247,7 @@ border-radius: 0;
 .mobile .main-outer,
 .mobile .post-outer {
 background: inherit;
-border: none;
+border: none; 
 }
 .mobile-link-button {
 background-color: #53b6cc;

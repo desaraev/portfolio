@@ -7,7 +7,13 @@ color: #8c7b7b;
 min-width: 0 !important;
 }
 /**************font************/
-
+.title a, .Header h1 a {
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: 'MinionPro-Medium';
+    font-family: 'minion-pro';
+}
 a:link {
 text-decoration:none;
 color: #53b6cc;

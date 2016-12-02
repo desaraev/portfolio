@@ -171,6 +171,10 @@ a.button.small {
 	border: 1px solid #BEE7ED;
     margin: -3px 0 0 0;
 }
+.desktoponly .section h1 {
+    border-bottom: solid #e85c41;
+    padding: 0 0 10px 0;
+}
 /**Search button**/
 #abt-search-btn {
     background: none repeat scroll 0 0 transparent;
